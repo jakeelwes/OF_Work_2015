@@ -2,19 +2,19 @@
 
 #### Work Created at SAIC to learn OF
 
-##### camColNoiseParticles
+##### camColNoiseParticles - Take color input from Camera
 ![camColNoiseParticles](README_PICS/camColNoiseParticles.jpg)
-##### imageCompression
+##### imageCompression - Compress/Glitch JPEG
 ![imageCompression](README_PICS/imageCompression.jpg)
-##### meshAudio
+##### meshAudio - audio-reactive Rotating Mesh with blendmodes
 ![meshAudio](README_PICS/meshaudio.jpg)
-##### meshCam
+##### meshCam - abstracted 3D mesh from camera
 ![meshCam](README_PICS/meshCam.jpg)
-##### midtermWithScale
+##### midtermWithScale - sound responsive particle web
 ![midtermWithScale](README_PICS/midtermWithScale.jpg)
-##### NoiseParticles
+##### NoiseParticles - perlin noise experiment
 ![NoiseParticles](README_PICS/NoiseParticles.jpg)
-##### PolyCamExtendLines
+##### PolyCamExtendLines - PolyLine contour mapping with camera input
 ![PolyCamExtendLines](README_PICS/PolyCamExtendLines.jpg)
 ##### PolyCam
 ![PolyCam](README_PICS/PolyCam.jpg)
