@@ -30,3 +30,6 @@
 *.xcodeproj
 *.xcconfig
 *.plist
+
+
+/emptyExample

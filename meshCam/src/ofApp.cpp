@@ -15,7 +15,7 @@ void ofApp::setup(){
             mesh.addColor(ofColor(ofRandom(20),ofRandom(10),ofRandom(30), ofRandom(60)));
         }
     }
-    extrusionAmount = 300;
+    extrusionAmount = 160;
     
     cam.setScale(1,-1,1);
 
@@ -43,9 +43,9 @@ void ofApp::update(){
         ofVec3f camDirection(0,0,1);
         ofVec3f centre(vidGrabber.getWidth()/2.f,vidGrabber.getHeight()/2.f, 255/2.f);
         ofVec3f camDirectionRotated = camDirection.getRotated(rotateAmount, ofVec3f(0,1,0));
-        ofVec3f camPosition = centre + camDirectionRotated * extrusionAmount;
+        ofVec3f camPosition = centre + camDirectionRotated * extrusionAmount*3;
         
-        cam.setPosition(camPosition - ofPoint(0,0,150));
+        cam.setPosition(camPosition - ofPoint(0,0,300));
         cam.lookAt(centre);
     }
 }
