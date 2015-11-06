@@ -18,3 +18,8 @@
 ![PolyCamExtendLines](README_PICS/PolyCamExtendLines.jpg)
 ##### PolyCam
 ![PolyCam](README_PICS/PolyCam.jpg)
+
+
+
+## To Run them:
+ You need to download OpenFrameworks 0.9.0: http://openframeworks.cc/download/ - (the nightly builds at the bottom) - then put the programs in of/apps/myApps and use the project generator to build them for your IDE.
